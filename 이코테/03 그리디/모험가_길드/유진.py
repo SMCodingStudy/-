@@ -30,3 +30,4 @@ for i in people:
 print(answer)
 
 # 몰라서 봤음
+# max_fear값을 꺼내서 배열에 해당 값만큼 pop하려했는데 막힘

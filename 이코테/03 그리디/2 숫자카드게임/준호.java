@@ -25,5 +25,7 @@ public class 준호 {
         Arrays.sort(count);
         int answer = count[N - 1];
         System.out.println(answer);
+        // 문제를 푼 후 모범답안을 확인해봤는데 입력과 동시에 열에서의 최소값을 저장하고,
+        // 행에서의 최대값을 저장하여 입력이 끝나는 동시에 출력이 되도록하는 방법이 효율적인 것을 확인함
     }
 }

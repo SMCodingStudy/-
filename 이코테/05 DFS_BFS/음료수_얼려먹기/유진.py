@@ -7,7 +7,7 @@ for _ in range(n):
     graph.append(list(map(int, sys.stdin.readline().split())))
 
 def count_ice (x, y):
-    if x < 0 or y < 0 or x > m or y > n:
+    if x < 0 or y < 0 or x > n or y > m:
         return False
 
     if graph[x][y] == 0:

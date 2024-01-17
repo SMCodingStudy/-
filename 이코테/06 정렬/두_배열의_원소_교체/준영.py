@@ -18,7 +18,6 @@ for i in range(K):
     A[i], B[i] = B[i], A[i]
     if max < sum(A):
         max = sum(A)
-    # print(max)
 
 print(max)
 # 5 3

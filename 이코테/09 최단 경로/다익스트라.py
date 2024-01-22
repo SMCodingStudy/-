@@ -23,10 +23,12 @@ def dijkstra(start):
 
     # 시작 노드로 가는 비용 0
     heapq.heappush(q, (0, start))
+    # 근데 큐에 넣는 것 만으로도 distance에 저장이 되나?
     distance[start] = 0
 
     while q: # q가 비어있지 않다면,
         # 최단 거리가 짧은 노드 꺼내기
+        # 거리, 지금 노드
         dist, now = heapq.heappop(q)
 
         # 이미 처리된 적 있는가?
